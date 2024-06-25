@@ -1,32 +1,49 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Womp Womp</title>
     <style>
-        .topbar{
+        body, html {
             margin: 0;
             padding: 0;
+            height: 100%;
+            background-color: black;
+        }
+        .topbar {
+            margin: 0;
+            padding: 10px 0;
             background-color: black;
             width: 100%;
             height: 10%;
-            h1,a{
-                color: white;
-            }
+            box-sizing: border-box;
+            text-align: center;
         }
-        iframe{
-            width: 100%;
-            height: 90%;
+        .topbar h1, .topbar a, a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
         }
-    </style>
 
+        iframe {
+            width: 100%;
+            height: 85%;
+            border: none;
+        }
+
+    </style>
+<!--height: calc(100% - 60px)-->
 </head>
 <body>
     <div class="topbar">
-        <center><h1>Womp Womp</h1>
-        <a href="">Top stories</a><a> </a><a href="">Stories</a><a> </a><a href="">Submit story</a><a> </a><a href="">About</a></center>
+        <h1>Womp Womp</h1>
+        <a href="#" target="main">Top</a>
+        <a href="#" target="main">All</a>
+        <a href="#" target="main">Submit</a>
+        <a href="#" target="main">About</a>
     </div>
-    <iframe>
-
+    <iframe title="main">
     </iframe>
+    <a>Made by drewsdodger2</a><a>|</a><a href="https://www.lambda-tech.org">LAMBDA</a>
 </body>
 </html>
