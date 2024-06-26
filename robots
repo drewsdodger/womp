@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /subsites/
+Disallow: /404.html
+Allow: /index.html
+
+Sitemap: https://www.womp.cyou/sitemap.xml
